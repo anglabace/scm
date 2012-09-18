@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<taglib>
+<tlib-version>1.0</tlib-version>
+<jsp-version>1.2</jsp-version>
+
+<tag>
+  <name>saveBtn</name>
+  <tag-class>com.genscript.gsscm.common.util.SaveButtTag</tag-class>
+  <body-content></body-content>
+  <attribute>
+    <name>parameter</name>
+    <required>false</required>
+    <rtexprvalue>true</rtexprvalue>
+  </attribute>
+  <attribute>
+  	<name>saveBtn</name>
+  	<required>false</required>
+  	<rtexprvalue>true</rtexprvalue>
+  </attribute>
+  <attribute>
+  	<name>disabledBtn</name>
+  	<required>false</required>
+  	<rtexprvalue>true</rtexprvalue>
+  </attribute>
+</tag>
+
+</taglib>

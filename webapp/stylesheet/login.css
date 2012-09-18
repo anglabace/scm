@@ -1,0 +1,331 @@
+@charset "utf-8";
+	body{
+	background-image: url(../images/bgground.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #CCD9E9;
+}
+body,td,th {
+	font:12px  Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+a:link {
+	color: #004097;
+}
+a:visited {
+	color: #004097;
+}
+a:hover {
+	color: #FF9900;
+}
+.login_contain {
+	width: 968px;
+	margin: 0px  auto;
+	padding: 0px;
+}
+.login_logo {
+ 	width: 968px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 0px;
+	background-image: url(../images/login_top.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 105px;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.login_contain .login_content {
+	height: 203px;
+	width: 326px;
+	background-image: url(../images/login_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 10px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.login_contain #change {
+	background-image: url(../images/change_bg.jpg);
+	background-repeat: no-repeat;
+	height: 260px;
+	width: 452px;
+	padding: 20px;
+}
+.login_contain #change .input1 {
+	width: 300px;
+}
+.login_contain #change .suggest {
+	font-size: 11px;
+	padding: 5px 0px;
+	color: #666666;
+}
+.login_contain .login_content .login_title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #003D96;
+	margin-bottom: 20px;
+	margin-left: 33px;
+	padding-top: 6px;
+}
+
+.login_contain .login_content td {
+}
+.login_contain .login_content th {
+	font-weight: bold;
+	text-align: left;
+}
+.login_contain .login_content .input1 {
+	background: #ffffff;
+	padding-left:3px;border:1px solid #cccccc;
+	width:180px;
+}
+.login_contain .login_content .input2 {
+	background: #ffffff;
+	padding-left:3px;border:1px solid #cccccc;
+	width:300px;
+}
+.login_contain .login_content .input1-bor{
+	background: #cfc;
+	border:1px solid #cccccc;
+	padding-left:3px;
+	width:180px;
+}
+.login_contain .login_content .input2-bor{
+	background: #cfc;
+	border:1px solid #cccccc;
+	padding-left:3px;
+	width:300px;
+}
+.login_contain .login_content .login_font {
+	font-size: 13px;
+	font-weight: bold;
+}
+.login_contain .login_content .blue_font {
+	font-weight: bold;
+	color: #003B95;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.login_contain .login_content .forgot_note {
+	font-weight: bold;
+	padding: 10px 0px 18px 0px;
+}
+
+.login_contain .login_content .error {
+	color: #FC5427;
+	background-image: url(../images/error.gif);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+.login_contain .login_content .remember {
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+}
+.login_contain .login_content .forgot {
+	font-weight: bold;
+}
+.login_contain .login_content .login_button {
+	text-align: center;
+}
+.login_contain .login_content .login_button .login_ok{
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            background-image: url(../images/login_ok1.jpg);
+            background-repeat: repeat-x;
+            font-size: 11px;
+            height: 21px;
+			width:75px;
+            text-decoration: none;
+			text-align: center;
+			line-height:21px;
+            color: white;
+            -moz-border-radius-bottomleft: 5px;
+            -moz-border-radius-bottomright: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-topright: 5px;
+}
+.login_contain .login_ok{
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            background-image: url(../images/login_ok1.jpg);
+            background-repeat: repeat-x;
+            font-size: 11px;
+            height: 21px;
+			width:75px;
+            text-decoration: none;
+			text-align: center;
+			line-height:21px;
+            color: white;
+            -moz-border-radius-bottomleft: 5px;
+            -moz-border-radius-bottomright: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-topright: 5px;
+}
+.login_contain  .warning_button .login_ok {
+    color: #ffffff;
+}
+.login_contain  .warning_button .close_window {
+    color: #FFFFFF;
+}
+.login_contain .login_content .login_button .change_password{
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            background-image: url(../images/login_ok3.jpg);
+            background-repeat: repeat-x;
+            font-size: 11px;
+            height: 21px;
+			width:110px;
+            text-decoration: none;
+			text-align: center;
+			line-height:21px;
+            color: white;
+            -moz-border-radius-bottomleft: 5px;
+            -moz-border-radius-bottomright: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-topright: 5px;
+}
+.login_contain .change_password{
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            background-image: url(../images/login_ok3.jpg);
+            background-repeat: repeat-x;
+            font-size: 11px;
+            height: 21px;
+			width:110px;
+            text-decoration: none;
+			text-align: center;
+			line-height:21px;
+            color: white;
+            -moz-border-radius-bottomleft: 5px;
+            -moz-border-radius-bottomright: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-topright: 5px;
+}
+.login_contain .login_content .login_button .close_window{
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            background-image: url(../images/login_ok2.jpg);
+            background-repeat: repeat-x;
+            font-size: 11px;
+            height: 21px;
+			width:96px;
+            text-decoration: none;
+			text-align: center;
+			line-height:21px;
+            color: white;
+            -moz-border-radius-bottomleft: 5px;
+            -moz-border-radius-bottomright: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-topright: 5px;
+}
+.login_contain .close_window{
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            background-image: url(../images/login_ok2.jpg);
+            background-repeat: repeat-x;
+            font-size: 11px;
+            height: 21px;
+			width:96px;
+            text-decoration: none;
+			text-align: center;
+			line-height:21px;
+            color: white;
+            -moz-border-radius-bottomleft: 5px;
+            -moz-border-radius-bottomright: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-topright: 5px;
+}
+.login_contain .login_content .login_button input {
+	margin: 3px;
+}
+.login_contain .login_content .continue {
+	text-align: right;
+	padding-right: 15px;
+}
+.login_copyright {
+	width: 968px;
+	margin: 0px  auto;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	text-align: center;
+}
+.login_contain .warning_box {
+	margin: 20px 60px;
+}
+.login_contain .warning_box .left_warning {
+	background-image: url(../images/warning.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+	width: 180px;
+	height: 210px;
+}
+.login_contain .warning_box .right_warning {
+	margin-left: 180px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #6E6E6E;
+}
+.login_contain .warning_box .right_warning p {
+	padding: 4px 0px;
+}
+
+.login_contain .warning_box .right_warning .title {
+	font-size: 13px;
+	line-height: 24px;
+	color: #16489F;
+	padding: 35px 15px; 
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.login_contain .warning_box .right_warning .title .green {
+	color: #009900;
+}
+.login_contain .warning_box .right_warning .warning_button {
+	padding: 8px;
+	text-align: center;
+}
+.login_contain .warning_box .right_warning .warning_button input {
+	margin: 3px;
+}
+.login_contain .warning_box .right_warning .red_font {
+	color: #990000;
+}
+.login_contain .warning_box .right_warning .green_font {
+	color: #16902D;
+}
+
+.login_contain .warning_box .right_warning .blue_font {
+	color: #16489F;
+}
+.login_contain .warning_box .right_warning li {
+
+line-height:18px;
+padding:7px 0px;}
+.login_contain .warning_copyright {
+	color: #333333;
+	text-align: center;
+	padding: 8px;
+	background-color: #eeeeee;
+}

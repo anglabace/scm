@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+span.accesskey {
+text-decoration:none;
+}
+.accessibility, hr {
+left:-999em;
+position:absolute;
+top:-999em;
+}
+dfn {
+display:inline;
+height:0;
+left:-1000px;
+overflow:hidden;
+position:absolute;
+top:-1000px;
+width:0;
+}
+a.external span {
+left:-5000px;
+position:absolute;
+width:4000px;
+}
+a.external {
+padding:0 12px 0 0;
+}
+a.external:link {
+background:transparent url(images/cms/external.gif) no-repeat scroll 100% 0;
+color:#18507C;
+}
+a.external:visited {
+background:transparent url(images/cms/external.gif) no-repeat scroll 100% 0;
+color:#18507C;
+}
+a.external:hover {
+background:#C3D4DF url(images/cms/external.gif) no-repeat scroll 100% 0;
+color:#18507C;
+}
+.clearfix:after {
+clear:both;
+content:".";
+display:block;
+height:0;
+visibility:hidden;
+}
+* html > body .clearfix {
+display:inline-block;
+width:100%;
+}
+* html .clearfix {
+height:1%;
+}

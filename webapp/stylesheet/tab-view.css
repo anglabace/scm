@@ -1,0 +1,74 @@
+.content .scm #dhtmlgoodies_tabView1 {
+	padding:10px;
+
+}
+.content .scm #dhtmlgoodies_tabView2{
+	padding:0px 10px;
+}
+.content .scm #dhtmlgoodies_tabView3{
+	padding:0px;
+}
+.dhtmlgoodies_tabPane{
+		height:26px;
+			/* Height of tabs */
+	}
+.dhtmlgoodies_aTab{
+		background-color:#FFffff;
+		border:1px solid #919b9c;
+		font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+		padding:11px;
+	}
+#dhtmlgoodies_tabView2 .dhtmlgoodies_tabPane{}
+#dhtmlgoodies_tabView2 .dhtmlgoodies_aTab{border:none;padding:0px 5px;}
+#dhtmlgoodies_tabView3 .dhtmlgoodies_tabPane{border-bottom:1px solid #919b9c;}
+#dhtmlgoodies_tabView3 .dhtmlgoodies_aTab{border:none; background:none;margin:0px;padding:0px;}
+.dhtmlgoodies_tabPane DIV{
+		float:left;
+		padding:0px 0px 0px 3px;
+		line-height:25px;	/* Height of tabs */
+		vertical-align:middle;
+		background-repeat:no-repeat;
+		background-position:bottom left;
+		cursor:pointer;
+		position:relative;
+		bottom:-1px;
+		margin:0px;
+	}
+.dhtmlgoodies_tabPane .tabActive{
+	margin:0px;
+	z-index:10;
+	font-weight:bold;
+	color:#003399;
+	background-image: url(../images/tab_active1.gif);
+	}
+.dhtmlgoodies_tabPane .tabInactive{
+		background-image:url(../images/tab_inactive1.gif);
+		margin:0px;
+		z-index:1;
+	}
+.dhtmlgoodies_tabPane .tabDisable{
+		background-image:url(../images/tab_inactive1.gif);
+		margin:0px;
+		color:#999;
+		z-index:1;
+}
+.dhtmlgoodies_tabPane .inactiveTabOver{
+		background-image:url(../images/tab_over1.gif);
+		margin:0px;color:#003399;
+	}
+.dhtmlgoodies_tabPane span{
+		font-family:arial;
+		vertical-align:top;
+		font-size:11px;
+		padding-left:3px;
+		padding-right:3px;		
+		float:left;
+	}
+.dhtmlgoodies_tabPane .tabActive span{
+		padding-bottom:1px;
+		line-height:25px;
+	}
+	
+.dhtmlgoodies_tabPane img{
+		float:left;
+	}

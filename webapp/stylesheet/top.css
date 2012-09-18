@@ -1,0 +1,118 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	color:#333333;
+	font:11px/18px Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #0066CC;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0066FF;
+}
+a:hover {
+	text-decoration: none;
+	color: #009900;
+}
+a:active {
+	text-decoration: none;
+}
+img{border:0px;}
+.top_message {
+    font:11px/18px Arial, Helvetica, sans-serif;
+	background: url(../images/top_bg.jpg) repeat-x left top;
+	height: 71px;
+	border-bottom:1px solid #C4D3FF;
+}
+.top_message .logo {
+	float: left;
+	width: 174px;
+	padding: 6px 0px 4px 15px;
+}
+.top_message .account {
+	text-align: right;
+	background: url(../images/top_11.jpg)  no-repeat center top;
+	padding: 0px;
+	height: 70px;
+}
+.top_message .account .message {
+	line-height: 22px;
+	background: url(../images/account_bg.jpg) no-repeat right top;
+	height: 27px;
+	padding-right: 21px;
+}
+.top_message .account .message a {
+	padding-right: 8px;
+	padding-left: 8px;
+	font-size: 11px;
+}
+
+.top_message .account .welcome {
+	padding-top: 25px;
+	padding-right: 15px;
+	font-weight: bold;
+}
+.top_message .account .welcome .name {
+	color: #990000;
+	padding-right: 8px;
+}
+.search_bar {font:11px/18px Arial, Helvetica, sans-serif;
+	border-top:1px solid #fFF;
+	border-bottom:1px solid #fFF;
+	height: 24px;
+	clear: both;
+	background: url(../images/bar_bg.jpg) repeat-x left top;
+}
+.search_bar .Search {
+	float: right;
+	width: 220px;
+	padding-top: 3px;
+	}
+.search_bar .Search #search_scm {
+	color: #033F97;
+	height: 16px;
+	width: 150px;
+	border: 1px solid #7F9DB9;
+	margin: 0px;
+	padding: 0px;
+}
+.search_bar .position {
+	color: #FFFFFF;
+	padding: 0px;
+	line-height: 23px;
+}
+.search_bar .position a {
+	padding: 0px 3px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.search_bar .position a:hover{ text-decoration:underline;}
+.search_bar .position .positon_font {
+	color: #00409A;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0px 4px;
+}
+
+.viewed {font:11px/18px Arial, Helvetica, sans-serif;
+	height: 24px;
+	line-height:24px;
+	border-top:1px solid #C4D3FF;
+	border-bottom:2px solid #C4D3FF;
+	background-color: #F7FBFE;
+	padding:0px 3px;
+	text-align: right;
+}
+
+.viewed .view_font {
+	font-weight: bold;
+	color: #333333;
+	padding:0px 4px;
+}
+ .viewed .date {
+	color: #0066CC;
+	padding: 0px 4px;
+}

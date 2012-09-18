@@ -1,0 +1,123 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	/* font-color: #58595B;
+	font-family:  Arial, Helvetica, sans-serif ; 
+	font-size: 8pt;
+	line-height: 15px;*/
+}
+
+table {
+	line-height: 24px;
+}
+
+table td {
+	
+}
+
+.table1 td {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #000;
+	border-right-color: #000;
+	padding: 5px;
+}
+
+.table2 td {
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #000;
+	border-left-width: 1px;
+	border-left-color: #000;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	word-break:break-all;
+	word-wrap:break-all;
+	padding: 5px;
+}
+
+.table1_td1 {
+	border-left: solid 1px #000;
+}
+
+.table3 td {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #000;
+	border-right-color: #000;
+	padding: 5px;
+}
+
+.css_b {
+	/* font-weight: bold; */
+}
+
+.css_10_b {
+	font-size: 10px;
+	/* font-weight: bold; */
+}
+
+.css_14_b {
+	font-size: 14px;
+	/* font-weight: bold; */
+}
+
+.css_15_b {
+	font-size: 15px;
+	/* font-weight: bold; */
+}
+
+.css_17_b {
+	font-size: 17px;
+	/* font-weight: bold; */
+}
+
+.css_24_b {
+	font-size: 24px;
+	/* font-weight: bold; */
+}
+
+.css_un {
+	text-decoration: underline;
+}
+
+.tableBorder2 {
+	border-collapse: collapse;
+	border: none;
+}
+
+.tableBorder2 td {
+	border: solid #000 1px;
+}
+
+.tableBorder3 {
+	border-collapse: collapse;
+	border: none;
+}
+
+.tableBorder3 td {
+	border-left: solid #000 1px;
+	border-right: solid #000 1px;
+	border-bottom: solid #000 1px;
+	/* font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px; */
+}
+
+/* .back {
+	background-image:
+		url(https://localhost/scm/images/confidential.gif);
+} */

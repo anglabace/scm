@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+.TabbedPanels {
+	margin: 5px 0px 3px 0px;
+	padding: 0px;
+	clear: none;
+	font-size: 11px;
+}
+
+.TabbedPanelsTabGroup {
+	margin: 0px 0px 0px 6px;
+	padding: 0px 0px 0px 4px;
+    border-bottom:2px solid #ABC9EB;
+	height:27px;
+}
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	font-size:11px;
+	float: left;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	background: url(../images/tab_bg2.gif) no-repeat center top;
+	height: 22px;
+	width:135px;
+	margin: 0px;
+	text-align:center;
+	color:#000000;
+	font-weight: bold;
+	padding: 3px 5px 0px 5px;  
+}
+
+.TabbedPanelsTabHover {
+	color: #0066CC;
+}
+
+.TabbedPanelsTabSelected {
+	font-size:11px;
+	color: #fff;
+	background-image: url(../images/tab_bg1.jpg);
+	background-repeat: no-repeat;
+}
+.content .scm .search_box #TabbedPanels1 .TabbedPanelsTabGroup .TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	font-size:11px;
+	float: left;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	background: url(../images/tab_bg2.gif) no-repeat center top;
+	height: 22px;
+	width:135px;
+	margin: 0px;
+	text-align:center;
+	color:#000000;
+	font-weight: bold;
+	padding: 3px 5px 0px 5px;  
+}
+
+.content .scm .search_box #TabbedPanels1 .TabbedPanelsTabGroup .TabbedPanelsTabHover {
+	color: #0066CC;
+}
+
+.content .scm .search_box #TabbedPanels1 .TabbedPanelsTabGroup .TabbedPanelsTabSelected {
+	font-size:11px;
+	color: #fff;
+	background-image: url(../images/tab_bg1.jpg);
+	background-repeat: no-repeat;
+}
+
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+
+.TabbedPanelsContentGroup {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.TabbedPanelsContent {
+	padding-left:12px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+.TabbedPanelsContentVisible {
+
+}
+
+
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	position: relative;
+}
+
+
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+
+.VTabbedPanels .TabbedPanelsTabSelected {
+}
+
+
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	font-weight:bold;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+.content .scm #TabbedPanels1 .TabbedPanelsTabGroup .TabbedPanelsTab {
+	margin: 0px;
+	padding: 2px 5px;
+}
+
+.content .scm .search_box #TabbedPanels1 {
+	margin-bottom: 0px;
+}
+.content .scm .search_box .General_table {
+	margin:7px 0px;
+	padding:0px;
+}

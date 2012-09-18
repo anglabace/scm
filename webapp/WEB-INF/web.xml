@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	
+	<context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath*:/applicationContext*.xml</param-value>
+    </context-param>
+
+     <!-- Filter Definition  -->
+	<!-- Character Encoding filter -->
+	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	
+	<filter>
+		<filter-name>hibernateOpenSessionInViewFilter</filter-name>
+		<filter-class>org.springframework.orm.hibernate3.support.OpenSessionInViewFilter</filter-class>
+	</filter>
+
+    <!-- Filter Mapping -->
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>hibernateOpenSessionInViewFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<!-- Struts2 filter -->
+	<filter>
+		<filter-name>struts2CleanupFilter</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ActionContextCleanUp</filter-class>
+	</filter>
+
+	<filter>
+		<filter-name>struts2Filter</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>struts2CleanupFilter</filter-name>
+		<url-pattern>*.action</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>struts2Filter</filter-name>
+		<url-pattern>*.action</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+	</filter-mapping>
+	
+	<!-- SessionListener Start -->
+	<listener>
+		<listener-class>com.genscript.gsscm.common.interceptor.SessionListener</listener-class>
+	</listener>  
+	<!-- SessionListener End -->
+	
+	<servlet>
+		<servlet-name>CXFServlet</servlet-name>
+		<servlet-class>org.apache.cxf.transport.servlet.CXFServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>CXFServlet</servlet-name>
+		<url-pattern>/services/*</url-pattern>
+	</servlet-mapping>
+	
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	
+    <listener>
+		<listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
+	</listener>
+	
+	<session-config>
+		<session-timeout>120</session-timeout>
+	</session-config>
+	
+	<security-constraint>
+     <web-resource-collection>
+       <web-resource-name>HtmlAdaptor</web-resource-name>
+       <description>An example security config that only allows users with the
+         role JBossAdmin to access the HTML JMX console web application
+       </description>
+       <url-pattern>/my</url-pattern>
+       <!-- <http-method>GET</http-method>
+       <http-method>POST</http-method> -->
+     </web-resource-collection>
+     <!--<auth-constraint>
+       <role-name>JBossAdmin</role-name>
+     </auth-constraint> -->
+     <user-data-constraint>
+            <description>Protection should be CONFIDENTIAL</description>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
+   </security-constraint> 
+   
+	<jsp-config>  
+	    <taglib>  
+	      <taglib-uri>/WEB-INF/MyTagLib/MySaveButtonTagLib</taglib-uri>  
+	      <taglib-location>/WEB-INF/MyTagLib/MySaveButtonTagLib.tld</taglib-location>  
+	    </taglib>  
+  	</jsp-config>  
+</web-app>
+

@@ -1,0 +1,116 @@
+.print_content {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 700px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.print_table {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 700px;
+}
+.print_head
+{
+	margin: 0px;
+	float: left;
+	height: auto;
+	width: 700px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+ 	
+}.print_headleft {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 68px;
+	width: 161px;
+	background-image: url(../images/genscript_logo.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.print_headright {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: auto;
+	width: 500px;
+}
+.print_headtitle {
+	margin: 0px;
+	float: left;
+	height: 24px;
+	width: 460px;
+	font-size: 14px;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	font-weight: bold;
+}
+.print_headdate {
+	margin: 0px;
+	float: left;
+	height: 16px;
+	width: 480px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+.print_b{
+	font-weight: bold;
+	text-align: center;
+}
+.print_r{
+	text-align: right;	
+}
+.print_foot {
+	text-align: center;
+	margin: 0px;
+	float: left;
+	height: auto;
+	width: 700px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	color: #354D71;
+}
+.print_foottop {
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 20px;
+	width: 700px;
+	background-image: url(../images/print_foot.jpg);
+	background-repeat: no-repeat;
+}
+.print_footfoot {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 20px;
+	width: 700px;
+}
+.print_anlu {
+	margin: 0px;
+	float: left;
+	height: 40px;
+	width: 700px;
+	text-align: center;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}

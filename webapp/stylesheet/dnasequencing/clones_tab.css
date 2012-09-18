@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+/* CSS Document */
+.h10{ height:10px; overflow:hidden; clear:both}
+.tab_down{ border:1px solid #b5c5dc; font-size:12px; background-color:#fff}
+.tab_down tr td{padding: 3px; line-height:14px; }
+.tab_downtop{ background:url("tab_thbg.jpg") left top repeat-x; font-weight:bold;}
+.table_in tr td{border:1px solid #b5c5dc}
+.tab_down tr th{padding: 3px; line-height:14px;}
+.tab_down .trcolor {background-color: #e4e4e4}
+.coverstyle{opacity:0.6;filter:alpha(opacity=60);}
+
+#container .tabbox{margin:0 auto; padding:0 auto}

@@ -1,0 +1,57 @@
+body{font:11px/18px Arial, Helvetica, sans-serif;
+	background: url(../images/left_bg.jpg)  repeat-y left top;
+	padding:0px;
+	margin:0px;
+}
+a:link {
+	text-decoration: none;
+	color:#383838;
+}
+a:visited {
+	text-decoration: none;color:#383838;
+}
+a:hover {
+	text-decoration: none; font-weight:bold;
+}
+a:active {
+	text-decoration: none;color:#383838;
+	
+}
+#body {font:11px/18px Arial, Helvetica, sans-serif;width:193px; margin:8px 2px 160px 8px;}
+.left_td{font:11px/18px Arial, Helvetica, sans-serif;background:url(../images/left_bottom.jpg) no-repeat left bottom; vertical-align:top;}
+.left_td #body ul {
+	background-color:#FFFFFF;
+	font:11px/18px Arial, Helvetica, sans-serif;margin: 0px;
+	padding: 0px;
+	border-left: 1px solid #8FACD0;
+	border-right: 1px solid #8FACD0;
+	border-bottom: 1px solid #8FACD0;
+	border-top: 1px solid #ffffff;
+	list-style-type: none;
+}
+.left_td #body li {
+	font:11px/18px Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.left_td #body li a{ display:block;}
+.left_td #body ul ul{margin: 0px;
+	padding: 0px;border-top: 1px solid #8FACD0;border-left:none;border-right:none;border-bottom:none; background-color:#FFFFFF; padding:1px 0px;}
+.left_td #body ul ul ul{border:none;}
+.L1{height:26px;font:bold 11px/18px Arial, Helvetica, sans-serif;
+	margin: 0px;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	background: #C3DBF5 url(../images/menu_bg.jpg)  repeat-x left top;padding:1px 0px 2px 6px;
+}
+.L1 A:link {display: block;COLOR: #383838;}
+.L1 A:visited {display: block;height:26px; COLOR:#383838;}
+.L1 A:hover { COLOR: #000;}
+.L1 A:link  {font-weight: bold;display: block;background:url(../images/Expand.gif) no-repeat 166px 1px;margin-top:4px; }
+.L1 A:visited SPAN {font-weight: bold;display: block;margin-top:4px; background:url(../images/Expand.gif) no-repeat 166px 1px; line-height:18px;}
+
+.M1{font:11px/18px Arial, Helvetica, sans-serif;}
+.M1 A:link,.M1 A:visited {padding:3px;height:auto;*height:auto;_height:24px;margin:0px;}
+.M1 A:hover  { color:#000;margin:0px;font-weight: bold;}
